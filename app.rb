@@ -1,9 +1,11 @@
 require 'rubygems'
 require 'sinatra'
 require 'hominid' # MailChimp
-require 'dotenv'
 
-Dotenv.load
+if development?
+  require 'dotenv'
+  Dotenv.load
+end
 
 configure do
 
