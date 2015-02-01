@@ -22,6 +22,10 @@ get '/' do
   erb :index
 end
 
+get '/faq' do
+  erb :faq
+end
+
 post '/signup' do
   email = params[:email]
   unless email.nil? || email.strip.empty?
