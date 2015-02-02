@@ -125,6 +125,7 @@ nav.navbar.navbar-default.bottom-f.navbar-fixed-top.topnav {
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
+    z-index: -1;
 }
 
 .banner h2 {
@@ -201,12 +202,14 @@ p.copyright {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+#ouibounce-modal {
+  z-index: 3;
+}
 #ouibounce-modal .modal {
   display: block;
 }
 .list-group-item {
   padding: 35px 25px;
-
 }
 .btn-success {
   color: white;

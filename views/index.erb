@@ -14,7 +14,7 @@
                       <div class="buffer"></div>
                       <ul class="list-inline intro-social-buttons">
                           <li>
-                              <a href="#" class="btn btn-default btn-success btn-lg"><i class="fa"></i> <span class="network-name">Pre-Order Now</span></a>
+                              <a href="#pre-order" id="preorder" class="btn btn-default btn-success btn-lg"><i class="fa"></i> <span class="network-name">Pre-Order Now</span></a>
                           </li>
                       </ul>
                   </div>
@@ -95,7 +95,7 @@
               <div class="col-lg-5 col-sm-6">
                   <hr class="section-heading-spacer">
                   <div class="clearfix"></div>
-                  <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+                  <h2 class="section-heading">Stack Them</h2>
                   <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
               </div>
               <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -109,7 +109,7 @@
   </div>
   <!-- /.content-section-a -->
 
-        <ul class="social-list-small">
+   <!--       <ul class="social-list-small">
           <li>
             <g:plusone size="medium" href="<%= request.url %>"></g:plusone>
           </li>
@@ -128,25 +128,23 @@
         <form action="/signup" class="form-inline">
           <input id="email" name="email"  type="text" class="input-xlarge" placeholder="Email me about the project">
           <button type="submit" class="btn btn-success">Subscribe</button>
-        </form>
+        </form> -->
 <!-- Ouibounce Modal -->
 <div id="ouibounce-modal">
   <div class="underlay"></div>
   <div class="modal">
     <div class="modal-title">
-      <h3>This is a Ouibounce modal</h3>
+      <h3>Before You Go</h3>
     </div>
 
     <div class="modal-body">
-      <p>Thanks for stoping by!</p>
-      <br>
-      <p>You can style your Ouibounce modal however you see fit. You can also include big buttons, an email capture or just plain text. The sky's the limit!</p>
-      <br>
-      <p>Close this modal by clicking "No Thanks" below or clicking anywhere outside of the modal.</p>
-
+      <div class="row text-center">
+        <h1>Thanks for stoping by!</h1>
+        <h2>Don't forget to sigin-up for updates.</h2>
+      </div>
       <form action="/signup" class="form-inline">
-        <input id="email" name="email"  type="text" class="input-xlarge" placeholder="Email me about the project">
-        <button type="submit" class="btn btn-success">Subscribe</button>
+        <input id="email" name="email"  type="text" class="input-xlarge" placeholder="Keep me updated.">
+        <button type="submit" class="btn btn-lg btn-success">Subscribe</button>
       </form>
     </div>
 
