@@ -3,10 +3,10 @@ Kiwano Landing Page
 
 # Details
 
-Production URL:
-https://kiwanogrow.bitbucket.io/
-Prod git Remote:
-https://kiwanogrow@bitbucket.org/kiwanogrow/kiwanogrow.bitbucket.io.git
+- Production:
+  https://kiwanogrow.bitbucket.io/
+- Git Remote: ~ restricted access 
+  https://kiwanogrow@bitbucket.org/kiwanogrow/kiwanogrow.bitbucket.io.git
 
 # Credits
 
