@@ -12,7 +12,6 @@ configure do
   # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
   set :mailchimp_api_key, ENV['MAILCHIMP_API_KEY']
   set :mailchimp_list_name, ENV['MAILCHIMP_LIST_NAME']
-
 end
 
 raise Exception.new("Please specify MAILCHIMP_API_KEY in your environment") if settings.mailchimp_api_key.nil?
