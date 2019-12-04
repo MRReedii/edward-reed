@@ -1,9 +1,17 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
-ruby "2.5.3"
+gem "jekyll", "~> 4.0.0"
 
-gem "hominid", "~> 3.0.5"
-gem "sinatra", "~> 1.3.4"
-gem "rack-google-analytics", "~> 0.9.2"
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+end
 
-gem 'dotenv-rails', groups: [:development, :test]
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
