@@ -1,6 +1,5 @@
 ---
 layout: home
-
 ---
 <!-- Header -->
 <a name="about"></a>
@@ -23,11 +22,13 @@ layout: home
           </h1>
           <h3>Transform <span class="everyone"></span></h3>
           <div class="buffer"></div>
+          {% if site.is_beta %}
           <ul class="list-inline intro-social-buttons">
             <li>
               <a href="/#pre-order" id="preorder-btn" class="btn btn-default btn-success btn-lg"><i class="fa"></i> <span class="network-name">Pre-Order Now</span></a>
             </li>
           </ul>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -36,8 +37,8 @@ layout: home
 </div>
 <!-- /.intro-header -->
 
+{% if site.is_beta %}
 <!-- Page Content -->
-
 <a  name="services"></a>
 <div class="content-section-a">
   <div class="container">
@@ -64,7 +65,7 @@ layout: home
     </div>
 </div>
 <!-- /.container -->
-
+{% endif  %}
 <!-- /.content-section-a -->
 <div class="hide content-section-b">
   <div class="container">
@@ -110,7 +111,7 @@ layout: home
         <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
       </div>
       <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-        <img class="img-responsive" src="img/phones.png" alt="">
+        <img class="img-responsive" src="/assets/img/phones.png" alt="">
       </div>
     </div>
   </div>

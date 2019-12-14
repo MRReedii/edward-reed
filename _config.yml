@@ -6,5 +6,7 @@ description: "Providing the possibility of liberation through sustainable living
 defaults:
    - scope:
       path: "assets"
+     site:
+       is_beta: false
      values:
        layout: "default"
