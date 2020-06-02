@@ -18,27 +18,8 @@
 
   <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/ouibounce.min.css">
   <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <!-- Fav and touch icons, add these yourself.
-      <link rel="shortcut icon" href="/assets/ico/favicon.ico">
-      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
-  -->
   <script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-59400955-1']);
@@ -72,11 +53,9 @@
                   <li class="pre">
                       <a class="btn btn-default btn-success" id="preorder-btn" href="/#pre-order">Pre-Order</a>
                   </li>
-                {% endif %}
                   <li>
                       <a href="/#about">About</a>
                   </li>
-                {% if site.is_beta %}
                   <li>
                       <a href="/faq">FAQ</a>
                   </li>
@@ -105,89 +84,16 @@
 
   <!-- Footer -->
   {% include footer.html %}
-  <div id="ouibounce-modal" class="preorder-modal">
-    <div class="underlay"></div>
-    <div class="modal">
-      <div class="modal-title">
-        <h3>Pre-Order</h3>
-      </div>
-      <div class="modal-body">
-        <div class="row text-center">
-          <h1>Thanks for stoping by!</h1>
-          <h2>Don't forget to sigin-up for updates.</h2>
-        </div>
-        <form action="/signup" class="form-inline">
-          <input id="email" name="email"  type="text" class="input-xlarge" placeholder="Keep me updated.">
-          <button type="submit" class="btn btn-lg btn-success">Subscribe</button>
-        </form>
-      </div>
 
-      <div class="modal-footer">
-        <p>no thanks</p>
-      </div>
-    </div>
-  </div>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
     <script src="/assets/js/vendor/bootstrap.min.js"></script>
-    <script src="/assets/js/vendor/ouibounce.min.js"></script>
     <script src="/assets/js/vendor/typed.js"></script>
     <script src="/assets/js/bundle.js"></script>
-
     <script>
       $(function(){
-        gaEvent = function(category, action, opt_label, opt_value, opt_noninteraction) {
-          _gaq.push(['_trackEvent', category, action, opt_label, opt_value, opt_noninteraction]);
-        };
-
-        closeModal = function(className, modType) {
-          modType = modType || '';
-          var eventCategory = 'Pre-Order' + modType;
-
-          gaEvent(eventCategory, 'Viewed');
-
-          $('body').on('click', function() {
-            gaEvent(eventCategory, 'Closed Modal');
-            $(className).css( "display", "none" );
-          });
-
-          $(className + ' .modal-footer').on('click', function() {
-            gaEvent(eventCategory, 'Clicked No Thanks');
-            $(className).css( "display", "none" );
-          });
-
-          if (modType == 'exit') {
-            $(className + ' .modal').on('click', function(e) {
-              e.stopPropagation();
-            });
-          };
-
-          // Misc Analytics Events 
-          $(className + ' #email').on('focus', function() { gaEvent(eventCategory, 'Clicked Keep Me Updated'); });
-        };
-
-        //var _preorder = ouibounce($('.preorder-modal')[0], {
-        //  timer: 0,
-        //  callback: function() { closeModal('.preorder-modal', ''); } 
-        //});
-        var _preorder_exit = ouibounce($('.preorder-exit-modal')[0], {
-          aggressive: true,
-          timer: 0,
-          callback: function() { closeModal('.preorder-exit-modal', 'exit'); } 
-        });
-
-        $('li [id=preorder-btn],div [id=preorder-btn]').on('click',function(e) {
-          e.preventDefault();
-          $('.preorder-modal').css( "display", "block" );
-          //_preorder.fire();
-          closeModal('.preorder-modal','');
-          _preorder_exit.disable();
-        });
-
         $('.everyone').typed({
-          strings: ['yourself.','your friends.', 'your family.', 'your community.', 'the world.'],
-          typeSpeed: 100 
+          strings: ['yourself.', 'your family.', 'your friends.', 'your community.', 'humanity.'],
+          typeSpeed: 100
         });
       });
     </script>
