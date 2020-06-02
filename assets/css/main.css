@@ -20,6 +20,14 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
+.end-of-q2 {
+  display: none;
+}
+.end-of-q2.active {
+  display: "block"
+}
+
 .buffer { margin-top: 40px; }
 .half-buffer { margin-top: 20px; }
 nav.navbar.navbar-default.bottom-f.navbar-fixed-top.topnav {

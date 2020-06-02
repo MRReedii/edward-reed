@@ -1,4 +1,12 @@
 $(document).ready(function() {
+  const optimizeSDK = require("@optimizely/optimizely-sdk");
+
+  const optimizelyClientInstance = optimizeSDK.createInstance({
+    sdkKey: 'Kz5p2Ho8puBnwyEsdJgAJu'
+  });
+
+  const enabled = optimizelyClientInstance.isFeatureEnabled('kiwano-end-q2', "basic");
+
   $("form").submit(function(e) {
     $("#notices div").hide();
     e.preventDefault();
