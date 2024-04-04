@@ -8,27 +8,6 @@ layout: home
     <div class="row">
       <div class="col-lg-12">
         <div class="intro-message">
-          <h1>
-            When everything becomes
-          </h1>
-          <h1>
-            nothing and
-          </h1>
-          <h1>
-            nothing everything
-          </h1>
-          <h1>
-            What happens?
-          </h1>
-          <h3>Transform <span class="everyone"></span></h3>
-          <div class="buffer"></div>
-          {% if site.is_beta %}
-          <ul class="list-inline intro-social-buttons">
-            <li>
-              <a href="/#pre-order" id="preorder-btn" class="btn btn-default btn-success btn-lg"><i class="fa"></i> <span class="network-name">Pre-Order Now</span></a>
-            </li>
-          </ul>
-          {% endif %}
         </div>
       </div>
     </div>
@@ -118,3 +97,4 @@ layout: home
   <!-- /.container -->
 </div>
 <!-- /.content-section-a -->
+

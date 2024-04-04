@@ -46,17 +46,19 @@ nav.navbar.navbar-default.bottom-f.navbar-fixed-top.topnav {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    margin-top: 70px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     text-align: center;
     color: #020202;
     background: url(../img/intro-bg.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
+    min-height: 450px;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 50px;
     padding-bottom: 20%;
     text-align: left;
 }
@@ -133,7 +135,7 @@ nav.navbar.navbar-default.bottom-f.navbar-fixed-top.topnav {
     padding: 100px 0;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     z-index: -1;
 }
 
