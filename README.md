@@ -1,8 +1,7 @@
 
-# Edward Reed's Portfolio
+# Edward Reed II's Portfolio
 
-Welcome to Edward Reed's Portfolio! This project showcases the work and projects
-of Edward Reed, an Experienced Full-Stack Engineer, Tech Enthusiast, and Social
+Welcome to Edward's Portfolio! This project showcases my work and projects, as an Experienced Full-Stack Engineer, Tech Enthusiast, and Social
 Advocate.
 
 ## Overview
@@ -24,13 +23,13 @@ Before running the project locally, ensure you have the following installed:
 1. Clone this repository to your local machine:
 
 ```bash
-    git clone https://github.com/your-username/edward-reed-portfolio.git
+    git clone https://github.com/MRReedii/edward-reed.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-    cd edward-reed-portfolio
+    cd edward-reed
 ```
 
 3. Install dependencies:
