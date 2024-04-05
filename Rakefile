@@ -53,7 +53,7 @@ task :deploy do
   # Step 6: Add all files, commit changes, and push to the "git-pages" branch
   sh 'git add .'
   sh 'git commit -m "Built assets for deployment"'
-  sh 'git push origin git-pages --force'
+  sh 'git push origin HEAD:git-pages --force'
 
   sh "git checkout #{current_branch}"
 end
