@@ -57,4 +57,3 @@ task :deploy do
 
   sh "git checkout #{current_branch}"
 end
-
