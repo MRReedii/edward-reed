@@ -16,7 +16,7 @@ task :deploy do
   sh 'git checkout master'
 
   # Step 2: Build the Jekyll site
-  sh 'bundle exec jekyll build'
+  sh 'jekyll build --config _config_prod.yml'
 
   # Step 1: Checkout to github pages prebuild branch named "git-pages-build"
   sh 'git checkout -b git-pages-build'

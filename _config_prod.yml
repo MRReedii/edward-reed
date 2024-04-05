@@ -1,0 +1,12 @@
+url: ""
+baseurl: "/edward-reed/"
+title: "Edward R II"
+description: "Experienced Full-Stack Software Engineer | Tech Enthusiast | Social Advocate | Artist"
+
+defaults:
+   - scope:
+      path: "assets"
+     site:
+       is_beta: false
+     values:
+       layout: "default"
