@@ -34,8 +34,12 @@ nav.navbar.navbar-default.bottom-f.navbar-fixed-top.topnav {
   background-color: rgba(255, 255, 255, 0.81);
   border-color: rgba(0, 0, 0, 0.23);
 }
+.navbar-default .navbar-brand {
+  color: #333;
+}
 .topnav {
-    font-size: 14px; 
+  font-size: 18px; 
+  color: #333;
 }
 .navbar-default {
   background-color: white;
@@ -86,6 +90,10 @@ nav.navbar.navbar-default.bottom-f.navbar-fixed-top.topnav {
 .about {
   border-top: 1px solid;
   margin-top: 50px;
+}
+
+.timeline {
+  padding-bottom: 25px;
 }
 
 @media(max-width:767px) {
