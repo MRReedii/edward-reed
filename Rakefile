@@ -5,14 +5,21 @@ task :deploy do
   # Store the name of the current branch
   current_branch = `git rev-parse --abbrev-ref HEAD`.chomp
 
+  # Check if there are any uncommitted changes
+  uncommitted_changes = `git status --porcelain`.strip
+
+  if !uncommitted_changes.empty?
+    puts "There are uncommitted changes in the repository. Please commit or stash them before proceeding."
+    exit 1
+  end
 
   sh 'git checkout master'
 
   # Step 2: Build the Jekyll site
-  sh 'bundle exec jekyll build'
+  sh 'bundle exec jekyll build --config _config_prod.yml'
 
   # Step 1: Checkout to github pages prebuild branch named "git-pages-build"
-  sh 'git checkout -b git-pages-build'
+  sh 'git checkout git-pages-build'
 
   root_dir = '.'
   source_dir = '_site'
@@ -50,4 +57,3 @@ task :deploy do
 
   sh "git checkout #{current_branch}"
 end
-
