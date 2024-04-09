@@ -2,11 +2,19 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h2>Current Works</h2>
+              <h2>Current Works</h2>
+              <!--
                 <p>
                   - Part-time service and coding related work
                   </br>
                   - LA JUNGLE - Going to market, getting feature complete
+                </p> -->
+                <p>
+                {% for post in site.posts %}
+                  {% if post.categories contains 'current-works' %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
                 </p>
             </div>
         </div>
