@@ -44,6 +44,11 @@ nav.navbar.navbar-default.bottom-f.navbar-fixed-top.topnav {
 .navbar-default {
   background-color: white;
 }
+
+.default-content {
+  margin-top: 75px;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
