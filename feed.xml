@@ -1,62 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="/edward-reed/feed.xml" rel="self" type="application/atom+xml" /><link href="/edward-reed/" rel="alternate" type="text/html" /><updated>2024-04-09T13:28:58-04:00</updated><id>/edward-reed/feed.xml</id><title type="html">Edward R II</title><subtitle>Experienced Full-Stack Software Engineer | Tech Enthusiast | Social Advocate | Artist</subtitle><entry><title type="html">LA JUNGLE - Going to Market and Getting Feature Complete</title><link href="/edward-reed/current-works/software-development/project-management/2024/04/09/current-works-la-jungle-post.html" rel="alternate" type="text/html" title="LA JUNGLE - Going to Market and Getting Feature Complete" /><published>2024-04-09T09:30:00-04:00</published><updated>2024-04-09T09:30:00-04:00</updated><id>/edward-reed/current-works/software-development/project-management/2024/04/09/current-works-la-jungle-post</id><content type="html" xml:base="/edward-reed/current-works/software-development/project-management/2024/04/09/current-works-la-jungle-post.html">&lt;h1 id=&quot;la-jungle---going-to-market-and-getting-feature-complete&quot;&gt;LA JUNGLE - Going to Market and Getting Feature Complete&lt;/h1&gt;
-
-&lt;p&gt;In this post, I want to document the journey of bringing our software project,
-LA JUNGLE, to market and achieving feature completeness. It’s been a challenging
-yet rewarding process.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="/edward-reed/feed.xml" rel="self" type="application/atom+xml" /><link href="/edward-reed/" rel="alternate" type="text/html" /><updated>2024-06-05T19:58:30-04:00</updated><id>/edward-reed/feed.xml</id><title type="html">Edward R II</title><subtitle>Experienced Full-Stack Software Engineer | Tech Enthusiast | Social Advocate | Artist</subtitle><entry><title type="html">LA JUNGLE - Going to Market and Getting Feature Complete</title><link href="/edward-reed/current-works/software-development/project-management/2024/04/09/current-works-la-jungle-post.html" rel="alternate" type="text/html" title="LA JUNGLE - Going to Market and Getting Feature Complete" /><published>2024-04-09T09:30:00-04:00</published><updated>2024-04-09T09:30:00-04:00</updated><id>/edward-reed/current-works/software-development/project-management/2024/04/09/current-works-la-jungle-post</id><content type="html" xml:base="/edward-reed/current-works/software-development/project-management/2024/04/09/current-works-la-jungle-post.html">&lt;h1 id=&quot;la-jungle---going-to-market-and-getting-feature-complete&quot;&gt;LA JUNGLE - Going to Market and Getting Feature Complete&lt;/h1&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;LA JUNGLE is a software application aimed at simplifying project management for
-creative teams. From the initial concept to development and testing, it’s been
-an exciting journey.&lt;/p&gt;
+&lt;p&gt;LA JUNGLE is an international marketplace app designed to uplift the African diaspora through international trade and exchange. Our mission is to create a seamless and vibrant platform that connects users with local businesses, enabling the exchange of goods and services across borders. As we approach the final stages of development, we’re excited to share our journey towards achieving feature completeness and preparing for market launch.&lt;/p&gt;
 
 &lt;h2 id=&quot;development-process&quot;&gt;Development Process&lt;/h2&gt;
 
-&lt;p&gt;We followed an agile development process, breaking down the project into
-manageable tasks and iterations. Regular feedback from users and stakeholders
-helped us refine our features and prioritize our roadmap.&lt;/p&gt;
+&lt;p&gt;Our development process has been guided by a clear vision and a user-centric approach. We started with a proof of concept that includes essential features such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Home Page&lt;/strong&gt;: Displays nearby restaurants, making it easy for users to discover local dining options.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Account Page&lt;/strong&gt;: Allows users to view and manage their favorited items.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Account Setup&lt;/strong&gt;: Provides a straightforward process for users to create and customize their profiles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These initial features laid the groundwork for our app, providing a solid foundation upon which to build more complex functionalities.&lt;/p&gt;
 
 &lt;h2 id=&quot;challenges-faced&quot;&gt;Challenges Faced&lt;/h2&gt;
 
-&lt;p&gt;Throughout the development process, we faced various challenges, from technical
-hurdles to resource constraints. However, our team remained resilient and
-focused on our goal of delivering a high-quality product.&lt;/p&gt;
+&lt;p&gt;Developing LA JUNGLE has not been without its challenges. Some of the key obstacles we’ve encountered include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Integration of Diverse Technologies&lt;/strong&gt;: Balancing the integration of React, Tailwind, GraphQL, Google Maps API on the frontend with Rails and Devise authentication on the backend required careful planning and execution.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scalability Concerns&lt;/strong&gt;: Ensuring that our platform can handle a growing user base and expanding features was a critical consideration.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;User Experience&lt;/strong&gt;: Designing an intuitive and user-friendly interface that caters to an international audience posed its own set of challenges.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Despite these hurdles, our team has remained committed to overcoming each obstacle, continually iterating on our design and implementation strategies.&lt;/p&gt;
 
 &lt;h2 id=&quot;achieving-feature-completeness&quot;&gt;Achieving Feature Completeness&lt;/h2&gt;
 
-&lt;p&gt;After several iterations and user testing sessions, we finally achieved feature
-completeness. This milestone marked a significant achievement for our team and
-brought us one step closer to launching LA JUNGLE.&lt;/p&gt;
+&lt;p&gt;As we near the 80% completion mark, we are focused on expanding our feature set to include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Marketplace by Location&lt;/strong&gt;: Users can browse and shop for items based on their geographical location.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Posting Listings&lt;/strong&gt;: Sellers can post their own listings, facilitating a vibrant marketplace.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delivery and Shipping Options&lt;/strong&gt;: Users can opt for local delivery or receive shipping suggestions for their purchases.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Internal Admin Panel&lt;/strong&gt;: This tool will allow us to test growth hypotheses and measure ROI, ensuring we are meeting our business goals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our tech stack choices have been pivotal in our development journey. We selected mature technologies known for their scalability and robustness:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Built with React, Tailwind, GraphQL, and Google Maps API for a responsive and dynamic user interface.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Powered by Rails for model and controller APIs, GraphQL for efficient data queries, and Devise for secure user authentication.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These technologies provide a stable and flexible environment that supports our current needs and future growth.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;Bringing LA JUNGLE to market and achieving feature completeness has been a
-rewarding journey filled with ups and downs. We’re excited about the potential
-impact our software can have on creative teams and look forward to its launch.&lt;/p&gt;</content><author><name></name></author><category term="current-works" /><category term="software-development" /><category term="project-management" /><category term="product-launch" /><category term="feature-complete" /><category term="software" /><summary type="html">Documenting the journey of bringing LA JUNGLE software to market and achieving feature completeness.</summary></entry><entry><title type="html">My Experience with Part-time Service and Coding Related Work</title><link href="/edward-reed/current-works/part-time/coding/2024/04/09/current-works-part-time-post.html" rel="alternate" type="text/html" title="My Experience with Part-time Service and Coding Related Work" /><published>2024-04-09T08:00:00-04:00</published><updated>2024-04-09T08:00:00-04:00</updated><id>/edward-reed/current-works/part-time/coding/2024/04/09/current-works-part-time-post</id><content type="html" xml:base="/edward-reed/current-works/part-time/coding/2024/04/09/current-works-part-time-post.html">&lt;h1 id=&quot;my-experience-with-part-time-service-and-coding-related-work&quot;&gt;My Experience with Part-time Service and Coding Related Work&lt;/h1&gt;
+&lt;p&gt;The journey to bring LA JUNGLE to market has been both challenging and rewarding. As we finalize the remaining features and prepare for user onboarding, we are excited about the impact our platform will have on the African diaspora and international trade. Our commitment to creating a seamless, user-friendly marketplace app remains unwavering, and we look forward to the opportunities ahead.&lt;/p&gt;
 
-&lt;p&gt;In this post, I want to share my journey and learnings from doing part-time
-service and coding work. It’s been an interesting experience balancing my
-studies and professional development.&lt;/p&gt;
+&lt;p&gt;Stay tuned for more updates as we approach our launch date and begin welcoming users to the LA JUNGLE community.&lt;/p&gt;</content><author><name></name></author><category term="current-works" /><category term="software-development" /><category term="project-management" /><category term="product-launch" /><category term="feature-complete" /><category term="software" /><summary type="html">Documenting the journey of bringing LA JUNGLE software to market and achieving feature completeness.</summary></entry><entry><title type="html">My Experience with Part-time Service and Coding Related Work</title><link href="/edward-reed/current-works/part-time/coding/2024/04/09/current-works-part-time-post.html" rel="alternate" type="text/html" title="My Experience with Part-time Service and Coding Related Work" /><published>2024-04-09T08:00:00-04:00</published><updated>2024-04-09T08:00:00-04:00</updated><id>/edward-reed/current-works/part-time/coding/2024/04/09/current-works-part-time-post</id><content type="html" xml:base="/edward-reed/current-works/part-time/coding/2024/04/09/current-works-part-time-post.html">&lt;h2 id=&quot;my-work-experience-with-service-and-software-work&quot;&gt;My Work Experience with Service and Software Work&lt;/h2&gt;
 
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
 
-&lt;p&gt;I started doing part-time service and coding work during my college years. It
-was a great way to apply what I was learning in class to real-world projects and
-earn some extra income.&lt;/p&gt;
+&lt;p&gt;My career journey has been anything but conventional. From blue-collar roles in freight handling and roadside assistance to crafting complex software solutions as a full-stack engineer, each experience has enriched my skills and broadened my perspective. This blog post will delve into the challenges I faced, the key learnings I gained, and how these diverse roles have shaped my professional growth.&lt;/p&gt;
 
-&lt;h2 id=&quot;challenges-faced&quot;&gt;Challenges Faced&lt;/h2&gt;
+&lt;h3 id=&quot;challenges-faced&quot;&gt;Challenges Faced&lt;/h3&gt;
 
-&lt;p&gt;While it was rewarding, there were also challenges. Balancing coursework with
-client deadlines required careful time management and prioritization.&lt;/p&gt;
+&lt;h4 id=&quot;blue-collar-roles&quot;&gt;Blue-Collar Roles&lt;/h4&gt;
 
-&lt;h2 id=&quot;key-learnings&quot;&gt;Key Learnings&lt;/h2&gt;
+&lt;p&gt;Working in blue-collar jobs like freight handling, warehouse operations, and roadside assistance has its unique set of challenges. These roles demanded physical endurance, attention to detail, and the ability to work efficiently under pressure. For instance, as a Freight Handler at Capstone Logistics, the fast-paced environment required quick thinking and precision to ensure that packages were sorted correctly and on time.&lt;/p&gt;
 
-&lt;p&gt;Through this experience, I learned valuable skills such as communication,
-problem-solving, and project management. It also helped me build a portfolio of
-work that I could showcase to potential employers.&lt;/p&gt;
+&lt;p&gt;Another significant challenge was managing the unpredictability and physical demands of roadside assistance. Providing emergency services required not only technical skills but also the ability to stay calm and composed during high-stress situations.&lt;/p&gt;
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;h4 id=&quot;software-engineering-roles&quot;&gt;Software Engineering Roles&lt;/h4&gt;
 
-&lt;p&gt;Overall, my experience with part-time service and coding work has been
-incredibly valuable. It provided me with practical experience, skills, and a
-network that have helped me in my career journey.&lt;/p&gt;</content><author><name></name></author><category term="current-works" /><category term="part-time" /><category term="coding" /><category term="experience" /><category term="freelancing" /><summary type="html">Sharing my journey and learnings from doing part-time service and coding work.</summary></entry></feed>
+&lt;p&gt;In contrast, my software engineering roles, such as those at Dialexia and CoLab Cooperative Inc., posed challenges that tested my technical prowess and problem-solving abilities. Collaborating with cross-functional teams to identify and resolve technical issues was a daily task. At Dialexia, ensuring the delivery of high-quality software while adhering to agile methodologies required constant learning and adaptation to new technologies.&lt;/p&gt;
+
+&lt;p&gt;Moreover, developing applications like the driver dispatching system at RevelryLabs demanded a deep understanding of both front-end and back-end technologies. Integrating various frameworks and libraries, from React and Elixir to Phoenix, often involved overcoming complex technical hurdles and debugging intricate codebases.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-learnings&quot;&gt;Key Learnings&lt;/h3&gt;
+
+&lt;h4 id=&quot;adaptability-and-resilience&quot;&gt;Adaptability and Resilience&lt;/h4&gt;
+
+&lt;p&gt;One of the most valuable lessons I’ve learned from my blue-collar roles is adaptability. Whether it was working as a Warehouse Team Member or handling food deliveries for Uber and Doordash, each job required quick adaptation to new environments and tasks. This adaptability has been crucial in my software engineering career, where technological landscapes constantly evolve.&lt;/p&gt;
+
+&lt;h4 id=&quot;technical-mastery-and-continuous-learning&quot;&gt;Technical Mastery and Continuous Learning&lt;/h4&gt;
+
+&lt;p&gt;My software engineering roles have underscored the importance of continuous learning. Technologies and best practices in the software industry evolve rapidly, and staying ahead necessitates a commitment to lifelong learning. My work with languages and frameworks like JavaScript, TypeScript, React, and Ruby on Rails has kept me engaged and driven to constantly improve my skills.&lt;/p&gt;
+
+&lt;h4 id=&quot;collaboration-and-communication&quot;&gt;Collaboration and Communication&lt;/h4&gt;
+
+&lt;p&gt;Both service and software roles have highlighted the importance of collaboration and communication. In blue-collar roles, effective communication with team members ensured smooth operations and safety. Similarly, in software development, collaborating with teams across different time zones and skill sets was essential for successful project delivery.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Reflecting on my diverse career journey, it’s clear that both my blue-collar and software engineering experiences have significantly contributed to my professional development. The challenges faced in physically demanding roles have built a foundation of resilience and adaptability, while my technical roles have honed my problem-solving skills and technical expertise. Together, these experiences have equipped me with a unique blend of skills and perspectives, ready to tackle any professional challenge that comes my way.&lt;/p&gt;
+
+&lt;p&gt;My journey underscores the value of embracing diverse experiences and the continuous pursuit of learning and growth. Whether it’s navigating the complexities of a software project or the physical demands of a service role, each experience offers invaluable lessons and opportunities for personal and professional development.&lt;/p&gt;</content><author><name></name></author><category term="current-works" /><category term="part-time" /><category term="coding" /><category term="experience" /><category term="freelancing" /><summary type="html">Sharing my journey and learnings from doing part-time service and coding work.</summary></entry></feed>
